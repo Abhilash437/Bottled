@@ -233,3 +233,18 @@ h5{
   position: relative;
   top:0.000001px;
 }
+@media (max-width:360px){
+  .interest, .language{
+    height: 60px;
+  }
+  h5{
+    width: 80%;
+  }
+  .interest p{
+    top:0.002px;
+  }
+
+  .language p{
+    top:0.002px;
+  }
+}
